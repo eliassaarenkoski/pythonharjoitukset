@@ -1,0 +1,3 @@
+käyttäjä = input('Anna nimesi: ')
+adjektiivi = input('jokin adjektiivi: ')
+print("olipa kerran, " + käyttäjä + " joka oli " + adjektiivi + " muutaman kerran, koska " + käyttäjä + " vetää sieniä")
