@@ -1,3 +1,3 @@
 paiva = input("kuinka monta paivaa: ")
-lasku = (60 * 60 * 24) * paiva
-print("annettu määrä päiviä sekuntteina: " + lasku)
+lasku = (60 * 60 * 24) * (int(paiva))
+print("annettu määrä päiviä sekuntteina: " + str(lasku))
