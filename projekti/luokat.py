@@ -1,14 +1,16 @@
 class Hahmo:
-    def __init__(self, nimi, hp, raha):
+    def __init__(self, nimi, hp, raha, vahinko):
         self.nimi = nimi
         self.hp = hp
+        self.max_hp = hp
         self.raha = raha
+        self.vahinko = vahinko
 class Areena:
-    def __init__(self, paikka, vihollinen,hp, vanhinko):
+    def __init__(self, paikka, vihollinen,hp, vahinko):
         self.paikka = paikka
         self.vihollinen = vihollinen
         self.hp = hp
-        self.vahinko = vanhinko  
+        self.vahinko = vahinko  
 class Esine:
     def __init__(self, nimi, hinta):
         self.nimi = nimi

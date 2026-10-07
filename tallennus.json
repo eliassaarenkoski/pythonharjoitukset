@@ -1,0 +1,18 @@
+{
+    "nimi": "eliaw",
+    "hp": 570,
+    "max_hp": 700,
+    "raha": 500,
+    "vahinko": 410,
+    "lapaisyt": [],
+    "inventaario": [
+        "tikari",
+        "rautapanssari",
+        "kolmikarki",
+        "rautapanssari",
+        "rautapanssari",
+        "kolmikarki",
+        "kolmikarki",
+        "kolmikarki"
+    ]
+}
